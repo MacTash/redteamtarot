@@ -5,6 +5,11 @@ This project started as a simple idea. I spend a lot of time studying AI securit
 
 What came out of that overlap is this minigame. It shuffles a full deck of Major and Minor Arcana redesigned as cyber security events. Each card carries MITRE ATLAS categories, OWASP LLM threat categories, a severity score, and a short narrative. It is not meant to be a serious threat model. It is simply a creative space to explore attack chains while practicing code design.
 
+## Installation | Version: 0.1.1
+1. clone the repo.
+2. install requirements.txt.
+3. run using the python run_tarot.py command.
+
 ## Features
 
 1. Major and Minor Arcana reimagined as red team concepts
@@ -63,4 +68,5 @@ If you submit a pull request, keep it readable and clear. The point of this proj
 
 ## License
 MIT License. See LICENSE file for details.
+
 
