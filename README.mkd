@@ -1,40 +1,66 @@
-# Red Team Tarot
+# RedTeamTarot
+ A tiny cyber security tarot minigame built while I was teaching myself programming.
 
-Red Team Tarot is a cybersecurity-themed tarot engine that uses ATLAS attack mappings, OWASP LLM vulnerabilities, and randomized tarot-style card draws to generate dynamic attack narratives.
+This project started as a simple idea. I spend a lot of time studying AI security, red teaming, prompt attacks, OSINT, and all the strange failure modes that pop up in LLMs. Tarot cards have structure. Red teaming frameworks also have structure. Both have archetypes. Merging them felt like an interesting way to learn Python without building another to-do app or URL shortener.
 
-## MAKE SURE TO INSTALL THE requirements.txt
+What came out of that overlap is this minigame. It shuffles a full deck of Major and Minor Arcana redesigned as cyber security events. Each card carries MITRE ATLAS categories, OWASP LLM threat categories, a severity score, and a short narrative. It is not meant to be a serious threat model. It is simply a creative space to explore attack chains while practicing code design.
 
 ## Features
 
-• 78-card deck covering Major and Minor Arcana  
-• MITRE ATLAS mappings per card  
-• OWASP LLM vulnerability mappings  
-• Animated shuffle and card-flip sequences in terminal  
-• Severity scoring with attack-type weighting  
-• Text-based severity heatmap  
+1. Major and Minor Arcana reimagined as red team concepts
 
-## How to Run
+2. MITRE ATLAS tags
 
+3. OWASP LLM vulnerability categories
+
+4. Severity scoring and a per-card heatmap
+
+5. Shuffle animation and card flip animation
+
+6. Clean terminal-based narrative output
+
+7. Fully organized into deck, engine, and runner files
+
+8. Easy to modify or extend
+
+9. Why this exists
+
+I built this as part of my learning path in programming, AI red teaming, and cyber security. It helped me practice data structures, program flow, ASCII animations, error handling, and packaging a small project end to end. It is intentionally lightweight. It is fun (for me at least). It is also flexible enough for anyone who wants to experiment with their own mappings or mechanics.
+
+# Installation
+
+Clone the repository and run:
+git clone https://github.com/MacTash/redteamtarot.git
+cd redteamtarot
 python3 run_tarot.py
 
-## File structure
-
-run_tarot.py
-
-tarot/
-
-├── deck.py
-
-├── engine.py
-
-└── init.py
 
 
-## Roadmap
+Virtual env is recommended but optional.
+Contributing
 
-• Improved animations  
-• CLI flags for speed control  
-• Ability to export readings  
-• GUI or web version later
+This is a small side project, but contributions are welcome. Ideas that might help:
 
+    Better animations
+
+    More accurate mappings to MITRE ATLAS
+
+    More OWASP LLM threat coverage
+
+    A proper CLI
+
+    A Streamlit or web UI (best outcome)
+
+    New card effects or mechanics
+
+    Localization
+
+    Art integration
+
+    Rules for multi-card spreads
+
+If you submit a pull request, keep it readable and clear. The point of this project is learning and fun, not complexity.
+
+## License
+MIT License. See LICENSE file for details.
 
