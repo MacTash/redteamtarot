@@ -16,9 +16,13 @@ Red Team Tarot is a cybersecurity-themed tarot engine that uses ATLAS attack map
 python3 run_tarot.py
 
 run_tarot.py
+
 tarot/
+
 ├── deck.py
+
 ├── engine.py
+
 └── init.py
 
 
@@ -28,3 +32,4 @@ tarot/
 • CLI flags for speed control  
 • Ability to export readings  
 • GUI or web version later
+
