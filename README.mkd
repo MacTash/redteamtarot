@@ -2,6 +2,8 @@
 
 Red Team Tarot is a cybersecurity-themed tarot engine that uses ATLAS attack mappings, OWASP LLM vulnerabilities, and randomized tarot-style card draws to generate dynamic attack narratives.
 
+## MAKE SURE TO INSTALL THE requirements.txt
+
 ## Features
 
 • 78-card deck covering Major and Minor Arcana  
@@ -14,6 +16,8 @@ Red Team Tarot is a cybersecurity-themed tarot engine that uses ATLAS attack map
 ## How to Run
 
 python3 run_tarot.py
+
+## File structure
 
 run_tarot.py
 
@@ -32,4 +36,5 @@ tarot/
 • CLI flags for speed control  
 • Ability to export readings  
 • GUI or web version later
+
 
