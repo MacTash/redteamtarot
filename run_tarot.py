@@ -7,7 +7,7 @@ def main():
     ║                                                              ║
     ║                    🃏 RED TEAM TAROT 🃏                      ║
     ║                                                              ║
-    ║              Divine Your Security Vulnerabil                 ║
+    ║              Divine Your Security Vulnerability              ║
     ║                                                              ║
     ║                      By: MacTash                             ║
     ╚══════════════════════════════════════════════════════════════╝
