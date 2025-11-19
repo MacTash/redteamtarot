@@ -4,7 +4,7 @@ Red Team Tarot - Divine Your Security Vulnerabilities
 A mystical security tool that maps attack patterns to tarot archetypes.
 """
 
-__version__ = "0.1.0"
+__version__ = "0.2.0"
 __author__ = "Mayukh/MacTash"
 
 from .deck import TarotCard, MAJOR_ARCANA, MINOR_ARCANA
